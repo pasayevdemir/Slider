@@ -32,9 +32,9 @@ previousSlider = (id) => {
 }
 
 nextSlider = (id) => {
-    document.querySelector(".manuelSlider .isFront").classList.remove("isFront");
+    document.querySelector(".isFront").classList.remove("isFront");
     id++;
-    document.querySelector(".manuelSlider #sliders" + id.toString()).classList.add("isFront");
+    document.querySelector("#sliders" + id.toString()).classList.add("isFront");
 }
 
 
